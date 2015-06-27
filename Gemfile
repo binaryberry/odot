@@ -31,6 +31,10 @@ group :development, :test do
   gem 'spring'
 
   gem 'rspec-rails', '~> 3.0'
+
+  gem 'rspec-its', '~> 1.0.1'
+
+  gem 'rspec-activemodel-mocks', '~> 1.0.1'
 end
 
 group :test do
